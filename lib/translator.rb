@@ -1,3 +1,5 @@
+require
+
 def load_library(directory)
   get_meaning, get_emoticon = {}, {}
   YAML.load_file(directory).each do |desc, data|
