@@ -1,4 +1,4 @@
-require
+require "yaml"
 
 def load_library(directory)
   get_meaning, get_emoticon = {}, {}
